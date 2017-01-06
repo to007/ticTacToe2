@@ -24,14 +24,14 @@ public class playVsPlay {
                 Main.showBoard();
                 System.out.println("Player 1 what row would you like to place in... 0,1,2");
                 x = input.nextInt();
-                if(x != 0 || x != 1 || x != 2){
+                if(x != 0 && x != 1 && x != 2){
                     System.out.println("Nice try xX dpenne Xx, you lose! Enter an allowed input next time!");
                     System.out.println("Player 2 has won the game!");
                     break;
                 }
                 System.out.println("Player 1 what column would you like to place in... 0,1,2");
                 y = input.nextInt();
-                if(y != 0 || y != 1 || y != 2){
+                if(y != 0 && y != 1 && y != 2){
                     System.out.println("Nice try xX dpenne Xx, you lose! Enter an allowed input next time!");
                     System.out.println("Player 2 has won the game!");
                     break;
